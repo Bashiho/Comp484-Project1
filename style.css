@@ -4,11 +4,28 @@ html {
 
 /* Change colors for text and bg */
 body {
-    background-color: black;
+    background-color: #0d0d0d;
     width: 70%;
     margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6, p , dd, dt{
-    color: white;
+    color: #FCFCE3;
+}
+
+dt {
+    font-size: 1.5em;
+}
+
+dd {
+    font-size: 1em;
+}
+
+a {
+    color: #FCFCE3
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -4,20 +4,143 @@
     <title></title>
     <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
+<header>
+    <nav>
+        <a href="./index.html" title="Home Page">Home</a>
+        <a href="./terms.html" title="Terminology Page">Important Terms</a>
+    </nav>
+</header>
 <body>
     <h1>Important Terms</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="./terms.html#roles" title"Character Roles">Character Roles</a>
+            </li>
+            <li>
+                <a href="./terms.html#objectives" title"Objectives">Objectives</a>
+            </li>
+            <li>
+                <a href="./terms.html#general-terms" title"General Terminology">General Terminology</a>
+            </li>
+        </ul>
+    </nav>
     <dl>
+        <h2 id="roles">
+            Character Roles
+        </h2>
+
         <dt>
-            <abbr>
-                CC
-            </abbr>
+            Carry
         </dt>
         <dd>
-            <abbr>
-                CC
-            </abbr>
-            , or Crowd Control, is any effect that prevents someone from doing something. This includes roots/stuns, which prevent moving, disarms which prevent shooting, and silences, which prevent ability usage.
-        </dd> 
+            Carries are characters that often want to secure a lot of farm to get an advantage, then use that strength to fight with their team.
+            They are called carries because they often do a lot of damage and can "carry" their team in fights.
+            Some examples of carries include Lady Geist, Seven, Warden, and Wraith.
+        </dd>
+
+        <dt>
+            Front-Liners
+        </dt>
+        <dd>
+            Front-Liners are often much tankier than other characters.
+            This allows them to be on the front-line, taking a lot of damage for their team.
+            Their goal is to take attention away from their other teammates for as long as possible.
+            Some examples of front-liners include Abrams, Bebop, and Victor.
+        </dd>
+
+        <dt>
+            Support
+        </dt>
+        <dd>
+            Supports are characters that often have abilities and buy items that support their team in fights.
+            This can manifest in a few ways, such as debuffing enemies or buffing and healing teammates.
+            They often do not rely on having a lot of souls.
+            Some examples of supports include Kelvin, Paige, and Rem.
+        </dd>
+
+        <dt>
+            Pick Characters
+        </dt>
+        <dd>
+            Pick characters have the main goal of separating enemies from their team, allowing your team to pick them off.
+            They are generally low cost.
+            Some examples of pick characters include Holliday and Paradox.
+        </dd>
+
+        <dt>
+            Hybrid Characters
+        </dt>
+        <dd>
+            Hybrid characters are characters that can be built for several roles depending on what the team needs.
+            For example, Ivy can be build as a full support hero, or you can build her for gun damage.
+            Whie support Ivy is stronger than gun Ivy, both are viable options.
+            This provides a lot of flexibility to a team, and helps make up for shortcomings that your team might have.
+            Some examples of hybrid characters include Drifter, Ivy, Vindicta, and Vyper.
+        </dd>
+
+        <h2 id="objectives">
+            Objectives
+        </h2>
+
+        <dt id="lane-guardians">
+            Lane Guardians
+        </dt>
+        <dd>
+            Lane Guardians, or simply Guardians, are an objective.
+            They are found towards the center of the map in each lane, with each team having 1 per lane.
+            The goal of the laning phase is to get an advantage over the enemy team and take their guardian.
+            Guardians take more damage as the game progresses, starting with 50&percnt damage resist, which decreases over time to -75&percnt resist at 10 minutes.
+            When close to guardians, they do a melee attack that can be parried, stunning them for a few seconds.
+            This is highly recommended to do when diving the tower.
+        </dd>
+
+        <dt>
+            Walker
+        </dt>
+        <dd>
+            Walkers are an objective.
+            They are found in each lane, but closer to the base than guardians.
+            Each team has 1 per lane, and they can be destroyed at any point, however they take less damage early.
+        </dd>
+
+        <dt>
+            Base Guardians
+        </dt>
+        <dd>
+            Base Guardians are similar to lane guardians, but with a different appearance and appearing at each base.
+            There is one set of 2 base guardians at each lane.
+            They cannot be parried like the lane guardians.
+
+            Related: <a href="./terms.html#lane-guardians" title="Lane Guardians">Lane Guardians</a>
+        </dd>
+
+        <dt id="shrines">
+            Shrines
+        </dt>
+        <dd>
+            There are 2 shrines found in each base.
+            The patron is immune while the shrines are still up, so destroying them is necessary to be able to take the patron.
+            The shrines send out waves that do significant damage to enemies, while also cursing them.
+        </dd>
+
+        <dt>
+            Patron
+        </dt>
+        <dd>
+            The patron is the end goal of a Deadlock game.
+            They have 2 stages, one while above half health and one while at half health or less.
+            To damage the patron in their first stage, both shrines must be destroyed.
+            During the second stage, you must be in the pit around the patron to deal damage to it.
+            While enemies are in the pit, the patron will send out waves similar those used by the shrines, dealing damage and cursing enemies.
+            If 1 friendly player is in the pit with the patron for a few seconds, it will take half damage while that player remains in the pit.
+            With 2 friendly players in the pit for a few seconds, the patron will take no damage while those players are in the pit.
+            As a result, it is often recommended to fight enemy players in the pit before attempting to kill the patron.
+            Once the enemy patron dies, you win the game.
+
+            Related: <a href="./terms.html#shrines" title="Shrines">Shrines</a>
+        </dd>
+
         <dt>
             Spirit Jar
         </dt>
@@ -25,13 +148,97 @@
             <img src="" alt="Image of the spirit Jar">
             The Spirit Jar, more commonly referred to as the "Urn" is an objective that spawns at 10 minutes, then every 5 minutes after that. 
             Players can pick up the urn when it spawns and take it across the map for bonus souls for their team, with the urn runner getting a few extra small bonuses. 
-            The urn has a comeback mechanic, where if a team is behind by 15&percnt for the first urn and 10&percnt for every urn after that, the dropoff point will be favored for that team, regardless of who picks up the urn
+            The urn has a comeback mechanic, where if a team is behind by 15&percnt for the first urn and 10&percnt for every urn after that, the dropoff point will be favored for that team, regardless of who picks up the urn.
+            When carrying the urn, the following audio will play:
+            <audio src="./audio/spirit-jar-carry.mp3" alt="Spirit Jar carry music" loop controls>
         </dd>
-        <dt>
 
+        <dt id="mid-boss">
+            Mid Boss
         </dt>
         <dd>
+            The Mid Boss is an objective in Deadlock. 
+            It is a boss that spawns in a pit below the middle of the map at 10 minutes, though it is not recommended to kill it at this time.
+            Killing the mid boss causes the Rejuvinator to drop, which provides a large bonus to the team that can secure it.
+            Due to the strength of the rejuv, it is highly recommended to do the Mid Boss any time that your team is able to.
+            Generally, you can do Mid Boss when your team has the damage to take it and when you have a player advantage.
+            Other factors can also affect if you can do the Mid Boss or not, but how quickly and how safely you can take it are the two largest factors to look for.
 
+            Related: <a href="./terms.html#rejuv" title="Rejuvinator">Rejuvinator</a>
+        </dd>
+
+        <dt id="rejuv">
+            Rejuv/Rejuvinator
+        </dt>
+        <dd>
+            The Rejuv is the crystal that spawns after the mid boss dies.
+            It has 3 charges, with each being secured by a heavy melee, and any player can take a rejuv charge for their team.
+            This means that, even if your team did not kill the Mid Boss, you can still take charges from the enemy team by meleeing the crystal before them.
+            The first person to heavy melee the rejuv is healed to full health.
+            When a team has rejuv charges, every player on that team recieves stat bonuses.
+            Each charge allows one person on that team to die and revive in place after 3 seconds.
+            Each player can only use one charge, and once used, they lose the other bonuses that the rejuv provides.
+            
+            Related: <a href="./terms.html#mid-boss" title="Mid Boss">Mid Boss</a>
+        </dd>
+
+        <h2 id="general-terms">
+            General Terms
+        </h2>
+
+        <dt>
+            <abbr>
+                CC
+            </abbr>
+        </dt>
+        <dd>
+            <abbr>
+                CC
+            </abbr>
+            , or Crowd Control, is any effect that prevents someone from doing something. 
+            This includes roots/stuns, which prevent moving, disarms which prevent shooting, and silences, which prevent ability usage.
+        </dd>
+
+        <dt>
+            Power Spike
+        </dt>
+        <dd>
+            A Power Spike is any time that you get something that makes you stronger. 
+            This could be something very small, like an ability coming off of cooldown in lane, or much larger like reaching max level on an ability or purchasing a powerful item.
+            It is often recommended that you play around your spikes, playing more aggresively once you have hit them to take advantage of your increased power.
+            The investment bonuses for spending 4.8k souls in any category are a very common power spike that all characters have, and are very often built around.
+        </dd>
+
+        <dt>
+            Farm/Jungle
+        </dt>
+        <dd>
+            Farms are what the NPC camps around the map are often called. 
+            They consist of a varying number of PVE enemies that give souls when killed.
+            There are 3 tiers of farms, with the harder tiers being harder to kill but providing more souls.
+        </dd>
+
+        <dt>
+            Sinner's Sacrifice
+        </dt>
+        <dd>
+            The Sinner's Sacrifice go by many names, but they are machines that spawn around the map starting at 8 minutes.
+            They can be hit with melees to give souls, but you take damage every time you hit one, so heavy melees are generally recommended.
+            Their health is shown by the lights at the top of the machine, and once their health is reduced to 0, they enter their "jackpot" state.
+            In this state, if you time a melee with the final light coming on, you receive small, permanent stat bonuses.
+            Starting a heavy melee when the third to last light is lit up is a very consistent way of getting 4 of these buffs, but a light melee when the last light flickers still gives 1 buff.
+            This last hit is also what gives a large portion of the souls from the Sinner's.
+            Sinner's Sacrifices are the most efficient way to earn souls when they spawn, so securing your own and stealing them from the enemies is very high priority when they spawn.
+        </dd>
+
+        <dt>
+            Freezing
+        </dt>
+        <dd>
+            Freezing a wave refers to the act of not shooting any troopers in the wave.
+            This lets troopers kill each other, which could deny souls from enemies if they are not present.
+            Freezing waves is only recommended if you know that the waves crashing could result in an enemy missing the wave.
+            It can also be used to give your lane partner a chance to run boxes/farm, though it is recommended you get pressure a wave instead and steal enemy farm if possible before securing your own farm.
         </dd>
     </dl>
 </body>
