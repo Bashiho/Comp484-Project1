@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+}
+
+/* Change colors for text and bg */
+body {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p , dd, dt{
+    color: white;
+}
