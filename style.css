@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Forevs Regular';
+    src: url('fonts/Forevs-Regular.otf') format('truetype');
+}
+
 html {
     background-color: #0d0d0d;
 }
 
 /* Change colors for text and bg */
 body {
+    font-family: 'Forevs Regular.ttf', sans-serif;
     background-color: #0d0d0d;
     width: 70%;
     margin: 0 auto;
@@ -14,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p , dd, dt{
 }
 
 dt {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 dd {
@@ -28,4 +34,20 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.topnav {
+    background-color: #0d0d0d;
+}
+
+.topnav a {
+    float: left;
+    color: #FCFCE3;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color: #FCFCE3;
+    color: #0D0D0D;
 }
