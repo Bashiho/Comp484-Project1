@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p , dd, dt{
 
 h1 {
     margin-top: 10px;
+    text-align: center;
 }
 
 h2 {
@@ -64,6 +65,10 @@ a {
 .topnav a:hover {
     background-color: #FCFCE3;
     color: #0D0D0D;
+}
+
+.topnav ul {
+    display: flex;
 }
 
 .floatleft {
