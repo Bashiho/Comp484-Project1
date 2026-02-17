@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, p , dd, dt{
     color: #FCFCE3;
 }
 
+h1 {
+    margin-top: 10px;
+}
+
 h2 {
     font-size: 1.7em;
 }
@@ -48,7 +52,6 @@ a {
 
 .topnav {
     background-color: #0d0d0d;
-    display: block;
 }
 
 .topnav a {
