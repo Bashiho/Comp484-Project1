@@ -23,14 +23,14 @@ h2 {
     font-size: 1.7em;
 }
 
+dt {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
 dt, dd {
     display: block;
     clear: both;
-}
-
-dt {
-    font-size: 1.5em;
-    margin-top: 10px;
 }
 
 p, dd {
