@@ -51,3 +51,7 @@ a {
     background-color: #FCFCE3;
     color: #0D0D0D;
 }
+
+.floatleft {
+    float: left;
+}
