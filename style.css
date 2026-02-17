@@ -19,11 +19,6 @@ h1, h2, h3, h4, h5, h6, p , dd, dt{
     color: #FCFCE3;
 }
 
-h1 {
-    margin-top: 10px;
-    text-align: center;
-}
-
 h2 {
     font-size: 1.7em;
 }
@@ -65,10 +60,6 @@ a {
 .topnav a:hover {
     background-color: #FCFCE3;
     color: #0D0D0D;
-}
-
-.topnav ul {
-    display: flex;
 }
 
 .floatleft {
