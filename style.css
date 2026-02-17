@@ -23,6 +23,10 @@ h2 {
     font-size: 1.7em;
 }
 
+dt, dd {
+    display: block;
+}
+
 dt {
     font-size: 1.5em;
 }
