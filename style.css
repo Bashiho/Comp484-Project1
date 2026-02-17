@@ -19,12 +19,16 @@ h1, h2, h3, h4, h5, h6, p , dd, dt{
     color: #FCFCE3;
 }
 
-dt {
-    font-size: 1.3em;
+h2 {
+    font-size: 1.7em;
 }
 
-dd {
-    font-size: 1em;
+dt {
+    font-size: 1.5em;
+}
+
+p, dd {
+    font-size: 1.2em;
 }
 
 a {
@@ -54,4 +58,18 @@ a {
 
 .floatleft {
     float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.imgborder {
+    border: #FCFCE3;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.crop {
+    object-fit: cover;
 }
