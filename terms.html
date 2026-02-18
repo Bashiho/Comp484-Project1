@@ -190,6 +190,8 @@
                     <br>
                     When carrying the urn, the following audio will play:
                     <br>
+                    {% comment %} I am using the audio element here to play the audio of carrying the spirit urn
+                        I am also using the loop and controls attributes to loop the sound and display controls for the user. {% endcomment %}
                     <audio src="./audio/spirit-jar-carry.mp3" alt="Spirit Jar carry music" loop controls />
                 </dd>
             
@@ -231,6 +233,8 @@
                 </h2>
 
                 <dt>
+                    {% comment %} I am using the abbr element to show that this is an abbreviation.
+                     This is to help screen readers understand what is being read. {% endcomment %}
                     <abbr>
                         CC
                     </abbr>
@@ -276,6 +280,9 @@
                     <br>
                     Example of breaking Sinner's Sacrifice:
                     <br>
+                    {% comment %} I am using the video element here to show a video of something that I didn't think
+                     I could describe with words and images. I am also using the controls and controlslist attributes to
+                     control which controls are shown to users. {% endcomment %}
                     <video src="./video/sinners-sacrifice-breaking.mp4" height="300" controls controlslist="nodownload">
                 </dd>
 
